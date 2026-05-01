@@ -30,6 +30,15 @@ body {
   max-width: 1120px;
 }
 
+body[data-slug="index"] .center > h1.article-title,
+body[data-slug="index"] .center > .content-meta {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
 .article-title, article > h1:first-child {
   color: var(--course-navy);
 }
@@ -179,10 +188,19 @@ footer ul {
   margin: 0 0 1rem;
 }
 
-.course-card span {
+.course-card > a {
   margin-top: auto;
-  color: #1372a0;
+  width: fit-content;
+  color: #1372a0 !important;
   font-weight: 900;
+  text-decoration: none !important;
+  padding: .48rem .72rem;
+  border-radius: 12px;
+  background: rgba(75,183,244,.1);
+}
+
+.course-card > a:hover {
+  background: rgba(75,183,244,.18);
 }
 
 .course-flow {
