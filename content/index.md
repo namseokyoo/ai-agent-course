@@ -9,8 +9,16 @@ publish: true
 
 ## 발표 모드
 
-- [전체화면 슬라이드쇼 열기](슬라이드쇼)
-- 강의별 바로가기: [1강](슬라이드쇼?lecture=1) · [2강](슬라이드쇼?lecture=2) · [3강](슬라이드쇼?lecture=3) · [4강](슬라이드쇼?lecture=4)
+<div class="course-home-actions">
+  <a href="https://namseokyoo.github.io/ai-agent-course/슬라이드쇼" class="course-primary-link">전체화면 슬라이드쇼 열기</a>
+  <div class="course-quick-links">
+    강의별 바로가기:
+    <a href="https://namseokyoo.github.io/ai-agent-course/슬라이드쇼?lecture=1">1강</a> ·
+    <a href="https://namseokyoo.github.io/ai-agent-course/슬라이드쇼?lecture=2">2강</a> ·
+    <a href="https://namseokyoo.github.io/ai-agent-course/슬라이드쇼?lecture=3">3강</a> ·
+    <a href="https://namseokyoo.github.io/ai-agent-course/슬라이드쇼?lecture=4">4강</a>
+  </div>
+</div>
 
 ## 강의 목록
 

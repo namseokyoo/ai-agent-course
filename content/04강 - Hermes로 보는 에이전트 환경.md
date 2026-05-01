@@ -9,7 +9,7 @@ final_slide_version: "lecture-04-bright-agent-classroom-v7-singlepass"
 
 ## 발표 모드
 
-- [전체화면 슬라이드쇼로 보기](슬라이드쇼?lecture=4)
+<a href="https://namseokyoo.github.io/ai-agent-course/슬라이드쇼?lecture=4" class="course-primary-link">전체화면 슬라이드쇼로 보기</a>
 
 ## 강의 요약
 
