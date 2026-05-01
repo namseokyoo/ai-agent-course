@@ -5,6 +5,8 @@ import { QuartzEmitterPlugin } from "../types"
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
+// @ts-ignore
+import courseSlideshowScript from "../../components/scripts/course-slideshow.inline"
 import styles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
 import { BuildCtx } from "../../util/ctx"
@@ -80,6 +82,8 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
   const cfg = ctx.cfg.configuration
 
   // popovers
+  componentResources.afterDOMLoaded.push(courseSlideshowScript)
+
   if (cfg.enablePopovers) {
     componentResources.afterDOMLoaded.push(popoverScript)
     componentResources.css.push(popoverStyle)
