@@ -35,7 +35,9 @@ body[data-slug="index"] .center > .content-meta {
   display: none;
 }
 
-footer {
+footer,
+contentinfo,
+[role="contentinfo"] {
   display: none;
 }
 
