@@ -7,6 +7,10 @@ final_slide_version: "lecture-04-bright-agent-classroom-v7-singlepass"
 
 # 04강 - Hermes로 보는 에이전트 환경
 
+## 발표 모드
+
+- [전체화면 슬라이드쇼로 보기](슬라이드쇼?lecture=4)
+
 ## 강의 요약
 
 Hermes를 예시로 에이전트 실행 환경의 구성요소와 운영 원칙을 이해합니다.
